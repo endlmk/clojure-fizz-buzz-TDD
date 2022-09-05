@@ -7,5 +7,5 @@
   (println "Hello, World!"))
 
 (defn convert [n]
-  "1")
+  (str n))
   
