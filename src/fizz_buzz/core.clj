@@ -7,5 +7,7 @@
   (println "Hello, World!"))
 
 (defn convert [n]
-  (str n))
+  (cond
+    (= (rem n 3) 0) "Fizz"
+    :else (str n)))
   
